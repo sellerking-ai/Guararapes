@@ -1,7 +1,3 @@
-import pkg from "@lovable.dev/vite-tanstack-config";
-const { lovable } = pkg;
-import { defineConfig } from "vite";
+import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
-export default defineConfig({
-  plugins: [lovable()],
-});
+export default defineConfig();
